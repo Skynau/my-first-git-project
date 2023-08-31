@@ -1,8 +1,10 @@
-let phrase = '';
+let myAge = 18;
+let hasAccess = !(myAge === 18);
 
-phrase = phrase + 'Hello';
-console.log(phrase)
-phrase = phrase + ', ';
-console.log(phrase)
-phrase = phrase + 'World!';
-console.log(phrase)
+console.log(hasAccess)
+
+if (!hasAccess) {
+    console.log('Access granted')
+} else {
+    console.log('Access denied')
+}
