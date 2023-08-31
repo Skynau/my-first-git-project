@@ -8,3 +8,5 @@ if (!hasAccess) {
 } else {
     console.log('Access denied')
 }
+
+console.log('Hello Ya')
